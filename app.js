@@ -29,7 +29,7 @@ function getReverseNumber(number){
     let returnable = "";
 
     array.forEach((element) => {
-        returnable = element + returnable;
+        returnable += element
        
     });
 
